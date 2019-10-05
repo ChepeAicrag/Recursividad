@@ -5,8 +5,11 @@
 public class TestBusqueda
 {
     public static void main(){
-    int [] array = {1,4,5,6,1};
+    int [] array = {10,1,1,1,1,10};
     Busqueda busqueda = new Busqueda();
-    System.out.printf("El arreglo tiene 1 en la pos " + busqueda.isThere(array,0,array.length-1,1));
-    } 
+    System.out.println("El arreglo tiene 10 en la pos \n" + busqueda.isThere(array,0,array.length-1,10));
+    System.out.println("El arreglo tiene 1 en la pos \n" + busqueda.isThere(array,0,array.length-1,1));
+    System.out.println("El arreglo tiene 15 en la pos \n" + busqueda.isThere(array,0,array.length-1,15));
+    
+   } 
 }

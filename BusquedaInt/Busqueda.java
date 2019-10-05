@@ -4,23 +4,22 @@
  * Retornar las posiciones donde se encuentra el número
  */
 public class Busqueda
-{
-   
-   /** Mi método */
-    
-    public String isThere(int [] data, int first, int last, int buscar){
-    String s = "";
+{   
+    static int c = 0;
+    public String isThere(int [] data, int first, int last, int buscar){     
+     String s = "";
      if(first <= last){
         if(data [first] == buscar){
-            if(first == last){
-                s += " "+ first;
-            }else{
-                s += ""+ first + ",";}
+            c++;
+            s += first + ",";
+            if(first == last && !s.isEmpty())
+              return s.substring(0,s.length()-1);
        }
-       s += isThere(data,first+1,last,buscar);
-    }else if( first>last+1 && s.isEmpty() ){ 
-       s += " No se encontro ese valor";
-    } 
+       return  s += isThere(data,first+1,last,buscar);
+     }else if(c<1 ){ 
+       return " No se encontro ese valor";
+     } 
+     c=0;
     return s;
    }
 }
