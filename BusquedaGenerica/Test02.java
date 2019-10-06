@@ -11,11 +11,11 @@ public class Test02
       for(int i=0; i < arrayNew.length; i++)
          System.out.print(arrayNew[i]+" ");
        
-      bus.isThere(arrayNew,0,arrayNew.length-1,1.9);
-      bus.isThere(arrayNew,0,arrayNew.length-1,2.5);
-      bus.isThere(arrayNew,0,arrayNew.length-1,1);
-      bus.isThere(arrayNew,0,arrayNew.length-1,6.2);
-      bus.isThere(arrayNew,0,arrayNew.length-1,8.5);
+      System.out.println("\n\nEl numero 1.9 está en la posición " + bus.isThere2(arrayNew,0,arrayNew.length-1,1.9));
+      System.out.println("\nEl numero 2.5 está en la posición " + bus.isThere2(arrayNew,0,arrayNew.length-1,2.5));
+      System.out.println("\nEl numero 1 está en la posición " + bus.isThere2(arrayNew,0,arrayNew.length-1,1));
+      System.out.println("\nEl numero 6.2 está en la posición " + bus.isThere2(arrayNew,0,arrayNew.length-1,6.2));
+      System.out.println("\nEl numero 8.5 está en la posición " + bus.isThere2(arrayNew,0,arrayNew.length-1,8.5));
       
     }
 }

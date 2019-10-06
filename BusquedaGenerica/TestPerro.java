@@ -12,7 +12,7 @@ public class TestPerro
      Perro p2 = new Perro("Melvin","buldog");
      Perro[] perros = {p,p2};
      for(int i=0; i< perros.length; i++)
-     System.out.print(perros[i]+ " ");
+     System.out.println(perros[i]+ " ");
      Busqueda bus = new Busqueda();
      bus.isThere(perros,0,perros.length-1,p);
     }

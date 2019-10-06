@@ -16,8 +16,8 @@ public class Test04
       for(int i=0; i < arrayNew.length; i++)
         System.out.print(arrayNew[i]+" ");
       
-      bus.isThere(arrayNew,0,arrayNew.length-1,'a');
-      bus.isThere(arrayNew,0,arrayNew.length-1,'f');
-      bus.isThere(arrayNew,0,arrayNew.length-1,'c');
+      System.out.println("\nEl caracter 'a' está en la posición " + bus.isThere2(arrayNew,0,arrayNew.length-1,'a'));
+      System.out.println("\nEl numero 'f' está en la posición " + bus.isThere2(arrayNew,0,arrayNew.length-1,'f'));
+      System.out.println("\nEl numero 'c' está en la posición " + bus.isThere2(arrayNew,0,arrayNew.length-1,'c'));
     }
 }
