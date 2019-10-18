@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=Perro2
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Perro2\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=nombre\ raza
+comment1.target=Perro2(java.lang.String,\ java.lang.String)
+comment2.params=
+comment2.target=java.lang.String\ getNombre()
+comment3.params=
+comment3.target=java.lang.String\ getRaza()
+comment4.params=
+comment4.target=java.lang.String\ toString()
+comment5.params=p
+comment5.target=int\ compareTo(Perro2)
+numComments=6

@@ -8,8 +8,8 @@
 public class TestPerro
 {
     public static void main(){
-     Perro p = new Perro("Sheko","chihuahua");
-     Perro p2 = new Perro("Melvin","buldog");
+     Perro p = new Perro("firulais","chihuahua");
+     Perro p2 = new Perro("firu","buldog");
      Perro[] perros = {p,p2};
      for(int i=0; i< perros.length; i++)
      System.out.println(perros[i]+ " ");

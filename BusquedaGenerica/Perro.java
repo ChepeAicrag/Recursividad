@@ -1,6 +1,6 @@
 
 
-public class Perro
+public class Perro 
 {
     final private String nombre;
     final private String raza;
@@ -25,12 +25,5 @@ public class Perro
     
     public String toString(){
     return getNombre()+ "  " + getRaza();
-    }
-    
-    public boolean equals(Object obj){
-    Perro p = (Perro)obj;
-    if(p.nombre.equals(nombre) && p.raza.equals(raza))
-    return true;
-    return false;
     }
 }

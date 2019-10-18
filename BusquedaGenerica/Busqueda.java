@@ -1,5 +1,5 @@
 
-
+/**Modificar la interfaz comparable*/
 public class Busqueda
 {
    /**Método del profesor*/ 

@@ -10,6 +10,4 @@ comment4.params=
 comment4.target=java.lang.String\ getRaza()
 comment5.params=
 comment5.target=java.lang.String\ toString()
-comment6.params=obj
-comment6.target=boolean\ equals(java.lang.Object)
-numComments=7
+numComments=6
