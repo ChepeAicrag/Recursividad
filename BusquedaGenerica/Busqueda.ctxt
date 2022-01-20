@@ -1,8 +1,0 @@
-#BlueJ class context
-comment0.target=Busqueda
-comment0.text=Modificar\ la\ interfaz\ comparable
-comment1.params=data\ first\ last\ buscar
-comment1.target=void\ isThere(java.lang.Object[],\ int,\ int,\ java.lang.Object)
-comment2.params=data\ first\ last\ buscar
-comment2.target=java.lang.String\ isThere2(java.lang.Object[],\ int,\ int,\ java.lang.Object)
-numComments=3
