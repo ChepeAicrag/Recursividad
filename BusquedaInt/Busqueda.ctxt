@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.target=Busqueda
-comment0.text=\r\n\ Buscar\ en\ un\ arreglo\ de\ int,\ el\ valor\ dado,\ utilizando\ recursividad\r\n\ Retornar\ las\ posiciones\ donde\ se\ encuentra\ el\ n\u00FAmero\r\n
-comment1.params=data\ first\ last\ buscar
-comment1.target=java.lang.String\ isThere(int[],\ int,\ int,\ int)
-numComments=2
