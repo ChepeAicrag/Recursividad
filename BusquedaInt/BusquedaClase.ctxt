@@ -1,6 +1,0 @@
-#BlueJ class context
-comment0.target=BusquedaClase
-comment0.text=\r\n\ M\u00E9todoRealizado\ en\ clase\r\n
-comment1.params=data\ first\ last\ buscar
-comment1.target=void\ isThere2(int[],\ int,\ int,\ int)
-numComments=2
